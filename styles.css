@@ -1,0 +1,54 @@
+
+/*Set the font of all elements in the page to Google Inconsolata*/
+header, main, navbar {
+         
+	font-family: 'Inconsolata', monospace;
+
+          }
+
+/*Make the header have a black background with white font*/
+header {
+
+       background-color: black;
+       color: white;
+       text-align: center;
+       height:120px;
+       padding:5px;
+       margin:10px;
+
+     }
+
+/*Create an off-white background color and put text in the center of a container*/
+main {
+       background-color: #FCFFDB;
+       width: 650px;
+       margin:auto;
+       text-align:center;
+
+      }
+
+/*Make all list items align to the left*/
+ol, ul {
+       text-align:left;
+       }
+
+/*Align the navbar to the right*/
+navbar {
+	text-align:right;
+	font-size: 18px;
+	
+       }
+
+/*Set the pseudo classes for links*/
+
+a:link{
+	color:black;
+      }
+
+a:hover{
+	color:blue;
+	}
+
+a:visited{
+	color:purple;
+	}
