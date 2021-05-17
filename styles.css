@@ -1,6 +1,6 @@
 
 /*Set the font of all elements in the page to Google Inconsolata*/
-header, main, navbar {
+header, main, nav {
          
 	font-family: 'Inconsolata', monospace;
 
@@ -33,7 +33,7 @@ ol, ul {
        }
 
 /*Align the navbar to the right*/
-navbar {
+nav {
 	text-align:right;
 	font-size: 18px;
 	
