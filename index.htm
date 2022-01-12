@@ -14,36 +14,40 @@
 <body>
 
 <!--Header with name and title-->
-	<header class="page-header">
+	<header>
   		<h1>Todd White</h1>
 		<h2>Software Developer</h2>
-
-<!--Create a navigation bar with link-->
-	<h3>
-		<ul class="nav justify-content-end">
-			<li class="nav-item">
-			  <a class="nav-link active" href="index.htm">Home |</a>
-			</li>
-			<li class="nav-item">
-			  <a class="nav-link" href="about.htm">About |</a>
-			</li>
-			<li class="nav-item">
-			  <a class="nav-link" href="contact.htm">Contact</a>
-			</li>			
-		  </ul>
-	</h3>
-		
-
 	</header>
 
-<!--Create the main body-->
+	<div class="container1">
+		<!--Create a navigation bar with link-->
+		<h3>
+			<ul class="nav">
+				<li class="nav-item">
+				<a class="nav-link active" href="index.htm">Home |</a>
+				</li>
+				<li class="nav-item">
+				<a class="nav-link" href="about.htm">About |</a>
+				</li>
+				<li class="nav-item">
+				<a class="nav-link" href="contact.htm">Contact</a>
+				</li>			
+			</ul>
+		</h3>
+	</div>
+
+<!--Put everything inside of a flexbox-->
+<div class="container2">
+
+	<div class="item-double">
+		<!--Create the main body-->
 	<main>
 		<section>
 			<img src="ToddWhite.jpg" alt="Todd at desk"><br><br>
 			<h3>Hi! I'm Todd White</h3>
 		</section>
 
-<!--Give an introduction with my interests-->
+		<!--Give an introduction with my interests-->
 		<article>
 			<p>I am a full stack developer living in Akron, Ohio</p>
 			<p>As a former accounting professor, I'm interested in:</p>
@@ -57,8 +61,17 @@
 		</article>
 			
 	</main>
+
+
+	</div>
+	
+
+
 	<hr>
   
+
+</div>
+
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
