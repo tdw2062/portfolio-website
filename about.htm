@@ -5,64 +5,81 @@
   		<meta charset="utf-8">
   		<title>About Todd White  </title>
   		<link rel="stylesheet" type="text/css" href="styles.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 		<link rel="preconnect" href="https://fonts.gstatic.com">
 		<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&family=Roboto:wght@100&display=swap" rel="stylesheet">
   		<meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>  
-	<body>
+
+<body>
 
 <!--Header with name and title-->
-<header class="page-header">
-	<h1>Todd White</h1>
-  <h2>Software Developer</h2>
-</header>
+	<header>
+  		<h1>Todd White</h1>
+		<h2>Software Developer</h2>
+	</header>
 
-<!--Create a navigation bar with link-->
-<h3>
-  <ul>
-	  <li class="nav-item">
-		<a class="nav-link active" href="index.htm">Home |</a>
-	  </li>
-	  <li class="nav-item">
-		<a class="nav-link" href="about.htm">About |</a>
-	  </li>
-	  <li class="nav-item">
-		<a class="nav-link" href="contact.htm">Contact</a>
-	  </li>			
-	</ul>
-</h3>
-  
+	<div class="container1">
+		<!--Create a navigation bar with link-->
+		<h3>
+			<ul class="nav">
+				<li class="nav-item">
+				<a class="nav-link active" href="index.htm">Home |</a>
+				</li>
+				<li class="nav-item">
+				<a class="nav-link" href="about.htm">About |</a>
+				</li>
+				<li class="nav-item">
+				<a class="nav-link" href="contact.htm">Contact</a>
+				</li>			
+			</ul>
+		</h3>
+	</div>
 
+<!--Put everything inside of a flexbox-->
+<div class="container2">
 
-
-<!--Create the main body-->
+	<div class="item-double">
+		<!--Create the main body-->
 	<main>
 		<section>
 			<img src="ToddWhite.jpg" alt="Todd at desk"><br><br>
-			
+			<h3>Hi! I'm Todd White</h3>
 		</section>
 
-<!--Give information regarding my contact info-->
+		<!--Give an introduction with my interests-->
 		<article>
-			<h3>About Todd</h3>
-			<p>After graduating college with a degree in business, I worked as an accountant, earning my CPA. I eventually
-			went to graduate school and subsequently worked as an accounting professor. As an accounting professor, I engaged in accounting
-			research through programming with the SAS language. I found the coding aspect of my job to be the most enjoyable! So, I decided it is
-			time to really develop my coding muscles and I joined Thinkful.
-			</p>
-			<p>As a student at Thinkful, I've begun my journey and honing my coding skills!</p>
-			<p>If you're looking to hire a new developer (or want to collaborate me on an awesome project) please reach out! I am so excited to 
-			work with other developers to build great software.
-			</p>
-			<hr>
-		</article>
-		
+            <h3>About Me</h3>
+            <p>After graduating college with a degree in business, I worked as an accountant, earning my CPA. I eventually
+            went to graduate school and subsequently worked as an accounting professor. As an accounting professor, I engaged in accounting
+            research through programming with the SQL, SAS, and Stata. I found the coding aspect of my job to be the most enjoyable! So, I decided it is
+            time to really develop my coding capacities and I joined Thinkful.
+            </p>
+            <p>As a student at Thinkful, I've begun my journey and honing my coding skills!</p>
+            <p>If you're looking to hire a new developer (or want to collaborate me on an awesome project) please reach out! I am so excited to 
+            work with other developers to build great software.
+            </p>
+            <hr>
+        </article>
+
+			
 	</main>
+
+
+	</div>
+	
+
+
 	<hr>
   
 
-  
-  
+</div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
 </body>
 
 </html>

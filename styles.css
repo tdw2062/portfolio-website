@@ -21,6 +21,7 @@ main {
   width: 650px;
   margin: auto;
   text-align: center;
+  font-size: 20px;
 }
 
 /*Make all list items align to the left*/
